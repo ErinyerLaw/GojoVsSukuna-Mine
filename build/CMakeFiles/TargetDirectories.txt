@@ -1,0 +1,15 @@
+C:/Users/Asus/Desktop/ROPA WORKING/build/CMakeFiles/main.dir
+C:/Users/Asus/Desktop/ROPA WORKING/build/CMakeFiles/tests.dir
+C:/Users/Asus/Desktop/ROPA WORKING/build/CMakeFiles/edit_cache.dir
+C:/Users/Asus/Desktop/ROPA WORKING/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Asus/Desktop/ROPA WORKING/build/CMakeFiles/list_install_components.dir
+C:/Users/Asus/Desktop/ROPA WORKING/build/CMakeFiles/install.dir
+C:/Users/Asus/Desktop/ROPA WORKING/build/CMakeFiles/install/local.dir
+C:/Users/Asus/Desktop/ROPA WORKING/build/CMakeFiles/install/strip.dir
+C:/Users/Asus/Desktop/ROPA WORKING/build/_deps/doctest-build/CMakeFiles/doctest_with_main.dir
+C:/Users/Asus/Desktop/ROPA WORKING/build/_deps/doctest-build/CMakeFiles/edit_cache.dir
+C:/Users/Asus/Desktop/ROPA WORKING/build/_deps/doctest-build/CMakeFiles/rebuild_cache.dir
+C:/Users/Asus/Desktop/ROPA WORKING/build/_deps/doctest-build/CMakeFiles/list_install_components.dir
+C:/Users/Asus/Desktop/ROPA WORKING/build/_deps/doctest-build/CMakeFiles/install.dir
+C:/Users/Asus/Desktop/ROPA WORKING/build/_deps/doctest-build/CMakeFiles/install/local.dir
+C:/Users/Asus/Desktop/ROPA WORKING/build/_deps/doctest-build/CMakeFiles/install/strip.dir
