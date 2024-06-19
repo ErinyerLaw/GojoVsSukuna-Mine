@@ -22,8 +22,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(doctest-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/doctest/doctest" "GIT_TAG" "v2.4.9"
-                    SOURCE_DIR          "C:/Users/Asus/Desktop/ROPA WORKING/build/_deps/doctest-src"
-                    BINARY_DIR          "C:/Users/Asus/Desktop/ROPA WORKING/build/_deps/doctest-build"
+                    SOURCE_DIR          "C:/Users/Asus/Desktop/ROPA 0.9 prefin/build/_deps/doctest-src"
+                    BINARY_DIR          "C:/Users/Asus/Desktop/ROPA 0.9 prefin/build/_deps/doctest-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

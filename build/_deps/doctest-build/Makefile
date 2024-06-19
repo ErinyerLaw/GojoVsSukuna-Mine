@@ -56,10 +56,10 @@ RM = C:\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Asus\Desktop\ROPA WORKING"
+CMAKE_SOURCE_DIR = "C:\Users\Asus\Desktop\ROPA 0.9 prefin"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Asus\Desktop\ROPA WORKING\build"
+CMAKE_BINARY_DIR = "C:\Users\Asus\Desktop\ROPA 0.9 prefin\build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Asus\Desktop\ROPAWO~1\build && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Asus\Desktop\ROPA WORKING\build\CMakeFiles" "C:\Users\Asus\Desktop\ROPA WORKING\build\_deps\doctest-build\\CMakeFiles\progress.marks"
-	cd /d C:\Users\Asus\Desktop\ROPAWO~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/doctest-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Asus\Desktop\ROPA WORKING\build\CMakeFiles" 0
+	cd /d C:\Users\Asus\Desktop\ROPA0~1.9PR\build && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Asus\Desktop\ROPA 0.9 prefin\build\CMakeFiles" "C:\Users\Asus\Desktop\ROPA 0.9 prefin\build\_deps\doctest-build\\CMakeFiles\progress.marks"
+	cd /d C:\Users\Asus\Desktop\ROPA0~1.9PR\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/doctest-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Asus\Desktop\ROPA 0.9 prefin\build\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Asus\Desktop\ROPAWO~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/doctest-build/clean
+	cd /d C:\Users\Asus\Desktop\ROPA0~1.9PR\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/doctest-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Asus\Desktop\ROPAWO~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/doctest-build/preinstall
+	cd /d C:\Users\Asus\Desktop\ROPA0~1.9PR\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/doctest-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Asus\Desktop\ROPAWO~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/doctest-build/preinstall
+	cd /d C:\Users\Asus\Desktop\ROPA0~1.9PR\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/doctest-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Asus\Desktop\ROPAWO~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\Asus\Desktop\ROPA0~1.9PR\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/doctest-build/CMakeFiles/doctest_with_main.dir/rule:
-	cd /d C:\Users\Asus\Desktop\ROPAWO~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/doctest-build/CMakeFiles/doctest_with_main.dir/rule
+	cd /d C:\Users\Asus\Desktop\ROPA0~1.9PR\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/doctest-build/CMakeFiles/doctest_with_main.dir/rule
 .PHONY : _deps/doctest-build/CMakeFiles/doctest_with_main.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ doctest_with_main: _deps/doctest-build/CMakeFiles/doctest_with_main.dir/rule
 
 # fast build rule for target.
 doctest_with_main/fast:
-	cd /d C:\Users\Asus\Desktop\ROPAWO~1\build && $(MAKE) $(MAKESILENT) -f _deps\doctest-build\CMakeFiles\doctest_with_main.dir\build.make _deps/doctest-build/CMakeFiles/doctest_with_main.dir/build
+	cd /d C:\Users\Asus\Desktop\ROPA0~1.9PR\build && $(MAKE) $(MAKESILENT) -f _deps\doctest-build\CMakeFiles\doctest_with_main.dir\build.make _deps/doctest-build/CMakeFiles/doctest_with_main.dir/build
 .PHONY : doctest_with_main/fast
 
 doctest/parts/doctest.obj: doctest/parts/doctest.cpp.obj
@@ -179,7 +179,7 @@ doctest/parts/doctest.obj: doctest/parts/doctest.cpp.obj
 
 # target to build an object file
 doctest/parts/doctest.cpp.obj:
-	cd /d C:\Users\Asus\Desktop\ROPAWO~1\build && $(MAKE) $(MAKESILENT) -f _deps\doctest-build\CMakeFiles\doctest_with_main.dir\build.make _deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.obj
+	cd /d C:\Users\Asus\Desktop\ROPA0~1.9PR\build && $(MAKE) $(MAKESILENT) -f _deps\doctest-build\CMakeFiles\doctest_with_main.dir\build.make _deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.obj
 .PHONY : doctest/parts/doctest.cpp.obj
 
 doctest/parts/doctest.i: doctest/parts/doctest.cpp.i
@@ -187,7 +187,7 @@ doctest/parts/doctest.i: doctest/parts/doctest.cpp.i
 
 # target to preprocess a source file
 doctest/parts/doctest.cpp.i:
-	cd /d C:\Users\Asus\Desktop\ROPAWO~1\build && $(MAKE) $(MAKESILENT) -f _deps\doctest-build\CMakeFiles\doctest_with_main.dir\build.make _deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.i
+	cd /d C:\Users\Asus\Desktop\ROPA0~1.9PR\build && $(MAKE) $(MAKESILENT) -f _deps\doctest-build\CMakeFiles\doctest_with_main.dir\build.make _deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.i
 .PHONY : doctest/parts/doctest.cpp.i
 
 doctest/parts/doctest.s: doctest/parts/doctest.cpp.s
@@ -195,7 +195,7 @@ doctest/parts/doctest.s: doctest/parts/doctest.cpp.s
 
 # target to generate assembly for a file
 doctest/parts/doctest.cpp.s:
-	cd /d C:\Users\Asus\Desktop\ROPAWO~1\build && $(MAKE) $(MAKESILENT) -f _deps\doctest-build\CMakeFiles\doctest_with_main.dir\build.make _deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.s
+	cd /d C:\Users\Asus\Desktop\ROPA0~1.9PR\build && $(MAKE) $(MAKESILENT) -f _deps\doctest-build\CMakeFiles\doctest_with_main.dir\build.make _deps/doctest-build/CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.s
 .PHONY : doctest/parts/doctest.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Asus\Desktop\ROPAWO~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\Asus\Desktop\ROPA0~1.9PR\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

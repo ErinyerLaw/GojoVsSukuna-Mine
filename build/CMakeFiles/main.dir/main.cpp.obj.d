@@ -1,6 +1,6 @@
 CMakeFiles/main.dir/main.cpp.obj: \
- C:\Users\Asus\Desktop\ROPA\ WORKING\main.cpp \
- C:\Users\Asus\Desktop\ROPA\ WORKING\help.h \
+ C:\Users\Asus\Desktop\ROPA\ 0.9\ prefin\main.cpp \
+ C:\Users\Asus\Desktop\ROPA\ 0.9\ prefin\help.h \
  C:/mingw64/include/c++/13.1.0/cmath \
  C:/mingw64/include/c++/13.1.0/bits/requires_hosted.h \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++config.h \

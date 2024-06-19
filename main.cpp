@@ -4,6 +4,15 @@
 **/
 #include "help.h"
 
+float windowx = 1800; // Ширина окна
+float windowy = 1200; // Высота окна
+float sens = 30; // Чувствительность
+
+int strengthe = 20; // Сила врага
+int strengthp = 10; // Сила игрока
+
+
+
 
 //главная функция
 int main()

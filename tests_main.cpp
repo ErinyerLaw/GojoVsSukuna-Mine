@@ -6,8 +6,6 @@
 TEST_CASE("Testing check function") {
     // Assuming mass is already defined and initialized properly
 
-    // Reset mass array
-    memset(mass, 0, sizeof(mass));
 
     SUBCASE("Coordinates within bounds") {
         mass[100][100][100] = true;
@@ -82,4 +80,26 @@ TEST_CASE("Testing Enemy class") {
         CHECK(enemy.y == 0);
         CHECK(enemy.z == 0);
     }
+}
+
+
+TEST_CASE("Testing texture loading") {
+    SUBCASE("Texture loading right image") {
+        CHECK(LoadTexture("textures/domain.jpeg") == 0);
+        CHECK(LoadTexture("textures/purple.jpeg") == 0);
+        CHECK(LoadTexture("textures/go.jpeg") == 0);
+        CHECK(LoadTexture("textures/jo.jpeg") == 0);
+        CHECK(LoadTexture("textures/boss1.jpg") == 0);
+        CHECK(LoadTexture("textures/boss2.jpg") == 0);
+        CHECK(LoadTexture("textures/sukuna.jpeg") == 0);
+    }
+    SUBCASE("Texture loading non-existing image") {
+        CHECK(LoadTexture("true.prk") == EXIT_FAILURE);
+        CHECK(LoadTexture("something") == EXIT_FAILURE);
+        CHECK(LoadTexture("that") == EXIT_FAILURE);
+        CHECK(LoadTexture("doesn`t") == EXIT_FAILURE);
+        CHECK(LoadTexture("exist") == EXIT_FAILURE);
+
+    }
+
 }
